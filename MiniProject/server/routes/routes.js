@@ -4,11 +4,11 @@ const User = require('../models/User');
 const Candidate=require('../models/Candidate')
 const nodemailer = require('nodemailer');
 const {google}=require('googleapis')
-const CLIENT_ID="660393216329-cdv80pumroarirbak2otaiau7ik1fa26.apps.googleusercontent.com";
-const CLIENT_SECRET="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";
-const REFRESH_TOKEN="1//04tOeZNcWVXsiCgYIARAAGAQSNwF-L9Ir86X2S1ncJ1kLIun3YfsC7CHNBXGLMyw22cT0toSHp1wkhNB5YT1K-eiBOZ3fyFZ5btQ";
+const CLIENT_ID="101832148757-bjdp3rhum2unpl5hug5gd5n46jq5ke5k.apps.googleusercontent.com";
+const CLIENT_SECRET="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";
+const REFRESH_TOKEN="1//04RvoJVswWlLLCgYIARAAGAQSNwF-L9Ir3HQSqizrHqQrlBkzLdeLeMMZLoTmAyQhTL8qUGwWZmA4ttIOxKoL8tI-WYlxjiv9tVY";
 const REDIRECT_URI="https://developers.google.com/oauthplayground";
-const MY_EMAIL="madangopalala@gmail.com";
+const MY_EMAIL="pothanaboinalavanya9818@gmail.com";
 const oAuth2Client=new google.auth.OAuth2(
   CLIENT_ID,
   CLIENT_SECRET,
