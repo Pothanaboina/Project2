@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table with Rounded Photo Icons</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+   .logo img{
+      margin-top:0px;
+   } 
+.name{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(18, 117, 198);
+    padding: 20px;
+    text-shadow: 3px 3px 4px black;
+    
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+   text-align: center;
+   align-items: center;
+   width: 80%;
+
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eab8b8;
+    border-left: 1px solid #eeb6b6;
+    border-right: 1px solid #c29292;
+}
+
+th {
+    background-color: #5497e9;
+    color: white;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+
+        .round-image {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .name-cell {
+            display: flex;
+            align-items: center;
+        }
+
+</style>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+           <img
+              src="C:\Users\chandana\OneDrive\Documents\html\ACMW-hi-res-logo-noText-transparent.png"
+              alt="ACM Logo">
+        </div>  
+        <nav class="nav container">
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">-
+                 <li><a href="project.html" class="nav__link">Home</a></li>
+
+                 <li class="dropdown__item">
+                   <div class="nav__link">
+                      About Us <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                   </div>                    
+                   <ul class="dropdown__menu">                     
+                     <li class="dropdown__subitem">
+                        <div class="dropdown__link">
+                            <a href="abt22-23.html">2022-23</a>
+                        </div></li>
+                        <li class="dropdown__subitem">
+                         <div class="dropdown__link">
+                             <a href="abt21-22.html">2021-22</a>
+                         </div></li>
+                         <li class="dropdown__subitem">
+                            <div class="dropdown__link">
+                                <a href="abt20-21.html">2020-21</a>
+                            </div></li>
+                            <li class="dropdown__subitem">
+                               <div class="dropdown__link">
+                                   <a href="abt19-20.html">2019-20</a>
+                               </div></li>
+                               <li class="dropdown__subitem">
+                                  <div class="dropdown__link">
+                                   <a href="abt18-19.html">2018-19</a>
+                                  </div></li>
+                                  <li class="dropdown__subitem">
+                                     <div class="dropdown__link">
+                                         <a href="abt17-18.html">2017-18</a>
+                                     </div></li>                                                
+                     </ul>
+                     </li>                  
+                 <li class="dropdown__item">
+                   <div class="nav__link">
+                      Members <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                   </div>
+
+                   <ul class="dropdown__menu">
+                      <li class="dropdown__subitem">
+                         <div class="dropdown__link">
+                             Heads <i class="ri-add-line dropdown__add"></i>
+                         </div>
+
+                         <ul class="dropdown__submenu">
+                            <li>
+                               <a href="hd22-23.html" class="dropdown__sublink">
+                                   2022-23
+                               </a>
+                            </li>
+    
+                            <li>
+                               <a href="hd21-22.html" class="dropdown__sublink">
+                                   2021-22
+                               </a>
+                            </li>
+    
+                            <li>
+                               <a href="hd20-21.html" class="dropdown__sublink">
+                                   2020-21
+                               </a>
+                            </li>
+                            <li>
+                             <a href="hd19-20.html" class="dropdown__sublink">
+                                 2019-20
+                             </a>
+                          </li>
+                          <li>
+                             <a href="hd18-19.html" class="dropdown__sublink">
+                                 2018-19
+                             </a>
+                          </li>
+  
+                          <li>
+                             <a href="hd17-18.html" class="dropdown__sublink">
+                                 2017-18
+                             </a>
+                          </li>   
+                         
+                        </ul>
+                      </li>
+                       <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             Members <i class="ri-add-line dropdown__add"></i>
+                          </div>
+
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="mm22-23.html" class="dropdown__sublink">
+                                    2022-23
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="mm21-22.html" class="dropdown__sublink">
+                                    2021-22
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="mm20-21.html" class="dropdown__sublink">
+                                    2020-21
+                                </a>
+                             </li>
+                             <li>
+                              <a href="mm19-20.html" class="dropdown__sublink">
+                                  2019-20
+                              </a>
+                           </li>
+                           <li>
+                              <a href="mm18-19.html" class="dropdown__sublink">
+                                  2018-19
+                              </a>
+                           </li>
+   
+                           <li>
+                              <a href="mm17-18.html" class="dropdown__sublink">
+                                  2017-18
+                              </a>
+                           </li>
+                          </ul>
+                       </li>                                               
+                   </ul>
+                </li>
+                <li class="dropdown__item">
+                   <div class="nav__link">
+                      Private Events <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                   </div>
+
+                   <ul class="dropdown__menu">
+                      <li class="dropdown__subitem">
+                         <div class="dropdown__link">
+                             <a href="pe22-23.html">2022-23</a>
+                         </div></li>
+                         <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                           <a href="pe21-22.html">2021-22</a>
+                          </div></li>
+                          <li class="dropdown__subitem">
+                             <div class="dropdown__link">
+                               <a href="pe20-21.html">2020-21</a>
+                             </div></li>
+                             <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                 <a href="pe19-20.html"> 2019-20</a>
+                                </div></li>
+                                <li class="dropdown__subitem">
+                                   <div class="dropdown__link">
+                                     <a href="pe18-19.html">2018-19</a>
+                                   </div></li>
+                                   <li class="dropdown__subitem">
+                                      <div class="dropdown__link">
+                                       <a href="pe17-18.html">2017-18</a>
+                                      </div></li>   
+                      </ul>
+                      </li>
+                      <li class="dropdown__item">
+                       <div class="nav__link">
+                          Public Events<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                       </div>
+   
+                       <ul class="dropdown__menu">
+                          <li class="dropdown__subitem">
+                             <div class="dropdown__link">
+                                 SPARDHA <i class="ri-add-line dropdown__add"></i>
+                             </div>
+   
+                             <ul class="dropdown__submenu">
+                                <li>
+                                   <a href="spa22-23.html" class="dropdown__sublink">
+                                       2022-23
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="spa21-22.html" class="dropdown__sublink">
+                                       2021-22
+                                   </a>
+                                </li>
+        
+                                <li>
+                                   <a href="spa20-21.html" class="dropdown__sublink">
+                                       2020-21
+                                   </a>
+                                </li>
+                                
+                             </ul>
+                          </li>
+                          <li class="dropdown__subitem">
+                              <div class="dropdown__link">
+                                  AAVEGA <i class="ri-add-line dropdown__add"></i>
+                              </div>
+   
+                              <ul class="dropdown__submenu">
+                                 <li>
+                                    <a href="avg22-23.html" class="dropdown__sublink">
+                                        2022-23
+                                    </a>
+                                 </li>
+                                 
+                              </ul>
+                           </li>
+                           <li class="dropdown__subitem">
+                              <div class="dropdown__link">
+                                 HOUR OF CODE <i class="ri-add-line dropdown__add"></i>
+                              </div>
+   
+                              <ul class="dropdown__submenu">                                  
+         
+                                 <li>
+                                    <a href="hc21-22.html" class="dropdown__sublink">
+                                        2021-22
+                                    </a>
+                                 </li>
+         
+                                 <li>
+                                    <a href="hc21-22.html" class="dropdown__sublink">
+                                        2020-21
+                                    </a>
+                                 </li>
+                                 <li>
+                                  <a href="hc21-22.html" class="dropdown__sublink">
+                                      2019-20
+                                  </a>
+                               </li>
+                               
+                              </ul>
+                           </li>
+                           <li class="dropdown__subitem">
+                             <div class="dropdown__link">
+                                VIVA VVIT <i class="ri-add-line dropdown__add"></i>
+                             </div>
+  
+                             <ul class="dropdown__submenu">
+                               
+                                <li>
+                                 <a href="v19-10.html" class="dropdown__sublink">
+                                     2019-20
+                                 </a>
+                              </li>
+                              <li>
+                                <a href="v19-10.html" class="dropdown__sublink">
+                                    2018-19
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="v19-10.html" class="dropdown__sublink">
+                                    2017-18
+                                </a>
+                             </li>
+     
+                             
+                             </ul>
+                          </li>
+                           
+                          
+                       </ul>
+                    </li>
+                    <li class="dropdown__item">
+                       <div class="nav__link">
+                          Calendar <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                       </div>
+   
+                       <ul class="dropdown__menu">
+                          <li class="dropdown__subitem">
+                             <div class="dropdown__link">
+                                 <a href="cal22-23.html">2022-23</a>
+                             </div></li>
+                             <li class="dropdown__subitem">
+                              <div class="dropdown__link">
+                                  <a href="cal21-22.html">2021-22</a>
+                              </div></li>
+                              <li class="dropdown__subitem">
+                                 <div class="dropdown__link">
+                                     <a href="cal20-21.html">2020-21</a>
+                                 </div></li>
+                                 <li class="dropdown__subitem">
+                                    <div class="dropdown__link">
+                                        <a href="calender19-20.html">2019-20</a>
+                                    </div></li>
+                                    <li class="dropdown__subitem">
+                                       <div class="dropdown__link">
+                                           <a href="calender18-19.html">2018-19</a>
+                                       </div></li>
+                                       <li class="dropdown__subitem">
+                                          <div class="dropdown__link">
+                                              <a href="calender17-18.html">2017-18</a>
+                                          </div></li>                          
+                          </ul>
+                          </li>             
+              </ul>
+           
+        </nav>
+        
+      
+    </header><br></br>
+       
+    <h1 class="name">2k22-2k23</h1>
+    
+
+<table>
+    <thead>
+        <tr>
+            <th>S.NO</th>
+            <th>Name</th>
+            <th>Role Of Candidate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+           
+            <td class="name-cell">
+                <img class="round-image" src="https://acm.vvitguntur.com/images/team/acm-w-17-18/faculty-coordinator.jpg" alt="jyothi  Photo" >  B.Sai Jyothi </td>
+            <td>Faculty Sponsor</td>
+        </tr>
+        <tr>
+            <td>2</td>
+           
+            <td class="name-cell">
+                <img class="round-image" src="https://acm.vvitguntur.com/images/acm2023-24/acm_officers/acm_w/1sahithya.jpg" alt="sahitya  Photo"> M.Lakshmi Sahitya</td>
+            <td>Chair</td>
+        </tr>
+        <tr>
+            <td>3</td>
+           
+            <td class="name-cell">
+                <img class="round-image" src="https://acm.vvitguntur.com/images/acm2023-24/acm_officers/acm_w/2suma.jpg" alt=" suma Photo">Ch.Suma Sri </td>
+            <td>Vice Chair</td>
+        </tr>
+        <tr>
+            <td>4</td>
+           
+            <td class="name-cell">
+                <img class="round-image" src="https://acm.vvitguntur.com/images/acm2023-24/acm_officers/acm_w/4jasmine.jpg" alt="alekya Photo">M.Sai Jasmine</td>
+            <td>Web Master</td>
+        </tr>
+        <tr>
+            <td>5</td>
+           
+            <td class="name-cell">
+                <img class="round-image" src="https://acm.vvitguntur.com/images/acm2023-24/acm_officers/acm_w/3niharika.jpg" alt="niharika  Photo"> K.Niharika</td>
+            <td>Secretary</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td class="name-cell">
+                <img class="round-image" src="https://acm.vvitguntur.com/images/acm2023-24/acm_officers/acm_w/5likitha2.png" alt="likhitha Photo">N.Naga Likitha </td>
+            <td>Treasurer</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            
+            <td class="name-cell">
+                <img class="round-image" src="https://acm.vvitguntur.com/images/acm2023-24/acm_officers/acm_w/6sindhu.jpg" alt="Sindhu Photo">K.Veera Sai Sindhu</td>
+            <td>Membership Chair</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<div class="map">
+
+    <div id="address">
+    <img src="https://www.acm.vvitguntur.com/images/vvit_logo.png"><br><br>
+    <i class="fa fa-home" aria-hidden="true">&emsp;Vasireddy Venkatadri Institute ofTechnology<br><br>&emsp;&emsp;Nambur(v)<br><br>&emsp;&emsp;Peda Kakani(M)<br><br>&emsp;&emsp;Guntur(Dt)<br><br>&emsp;&emsp;Andhra Pradesh </i><br><br>
+    <i class="fa fa-phone" aria-hidden="true">&emsp;(08063)2263339</i><br><br>
+    <i class="fa fa-envelope" aria-hidden="true">&emsp;acm.vvit@gmail.com</i></div>
+    
+                <p id="college"><b>Location<b></p>
+      
+        
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.5843780664945!2d80.52186707351446!3d16.344167332022195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f5c460ab7d1d%3A0x8c86e4f36490336b!2sVasireddy%20Venkatadri%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1692108165459!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+    
+            </div> 
+           <footer>
+            <h4>For more details,visit our websites</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+       
+          <div class="wrapper">
+             <div class="dot">
+                <div class="icon">
+                   <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+             </div>
+             <div class="dot">
+                <div class="icon">
+                   <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+             </div>
+             <div class="dot">
+                <div class="icon">
+                   <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+             </div>
+             
+          </div>
+        </footer>
+        
+      
+</body>
+</html>
